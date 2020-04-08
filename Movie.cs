@@ -17,7 +17,9 @@ namespace WebFlix.Models
         [Required]
         public String Title { get; set; }
 
-        public Certificate Cert { get; set; }
+        //now cert is required
+		[Required]
+		public Certificate Cert { get; set; }
         public Genre Gen { get; set; }
 
         //not required now at all at all
