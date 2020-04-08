@@ -11,6 +11,7 @@ namespace WebFlix.Controllers
     [RoutePrefix("api/Movie")]
     public class MovieController : ApiController
     {
+        //this is where we create a list iof movies
         private static List<Movie> Movies = new List<Movie>()
         {
             new Movie(){MovieID=1, Title="The Quiet Man", Cert=Certificate.PG, Gen=Genre.drama, ReleaseDate=new DateTime(1952, 6, 1), AvgRating=10},
