@@ -20,6 +20,7 @@ namespace WebFlix.Models
         public Certificate Cert { get; set; }
         public Genre Gen { get; set; }
 
+		[Required]
         public DateTime ReleaseDate { get; set; }
 
         public int AvgRating { get; set; }
